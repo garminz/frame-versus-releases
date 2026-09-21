@@ -2,6 +2,8 @@
 
 A desktop app for viewing and comparing images side by side, with zoom and pan that stay in sync across every pane. Free to use, including for commercial work. Available for macOS, Windows, and Linux.
 
+![FrameVersus viewing an image with EXIF overlays, a note, and the filmstrip](screenshots/carousel.png)
+
 ## Download
 
 **[Get the latest release →](https://github.com/garminz/frame-versus-releases/releases/latest)** and pick the file for your system from **Assets**:
@@ -16,6 +18,20 @@ A desktop app for viewing and comparing images side by side, with zoom and pan t
 | Linux, any distribution | `.AppImage` |
 
 Requires macOS 10.13+, Windows 10 or 11, or Linux with WebKitGTK 4.1 (Ubuntu 22.04+, Debian 12+, Fedora 38+).
+
+## Comparing images
+
+**Grid.** Put up to 26 images side by side. Zoom and pan stay in sync across every linked pane, and each pane can show its own EXIF and notes.
+
+![Four frames from a burst in a synced 2×2 grid](screenshots/grid.png)
+
+**100%.** Press `Z` to jump every pane to 100% and check sharpness pixel by pixel.
+
+![Four frames at 100% zoom: two razor sharp, two soft](screenshots/zoom-100.png)
+
+**Overlay.** Blend two images with a slider to spot differences between frames.
+
+![Two frames blended at 50% with the blend slider](screenshots/overlay.png)
 
 ## Features
 
